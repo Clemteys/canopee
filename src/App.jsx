@@ -390,6 +390,7 @@ const App = () => {
         ).toFixed(1)
       : null;
     
+      
     const scatterData = questionResponses.map((r, i) => ({
       x: r.agreement,
       y: r.importance,
